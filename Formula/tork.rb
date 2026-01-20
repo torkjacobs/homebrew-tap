@@ -5,10 +5,9 @@ class Tork < Formula
 
   desc "AI Agent Governance CLI - PII detection, policy enforcement, and audit logging"
   homepage "https://tork.network"
-  url "https://github.com/torkjacobs/tork-governance/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  url "https://files.pythonhosted.org/packages/5f/f5/273ccd01f2f36d4a987fac905b439d052e1c8f51379522a8edeb72311a7c/tork_governance-0.8.1.tar.gz"
+  sha256 "437dbe13e72b928fcc036939d9d7ab2e150b51721b87e6c542f4b326db2c7b1e"
   license "MIT"
-  head "https://github.com/torkjacobs/tork-governance.git", branch: "main"
 
   depends_on "python@3.11"
 

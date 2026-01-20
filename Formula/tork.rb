@@ -10,6 +10,7 @@ class Tork < Formula
   license "MIT"
 
   depends_on "python@3.11"
+  depends_on "rust" => :build
 
   resource "typer" do
     url "https://files.pythonhosted.org/packages/c5/58/a79003b91ac2c6890fc5d90145c662fd5771c6f11447f116b63300436bc9/typer-0.12.5.tar.gz"
